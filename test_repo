@@ -1,0 +1,7 @@
+#! /bin/bash
+# total system memory status 
+
+mfree_status = free -m
+
+echo " system memory status of using : $mfree_status " 
+
